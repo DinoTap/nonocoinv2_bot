@@ -10,7 +10,7 @@ bot.onText(/\/start/, (msg) => {
 
   console.log(chatId, username);
 
-  const webAppUrl = `https://t.me/nonoaiofficial_bot/nonoaicoin`;
+  const webAppUrl = ``;
 const tronbridge = `https://t.me/NONOCoinSwap_Bot`
   const opts = {
     reply_markup: {
