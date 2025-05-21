@@ -1,6 +1,6 @@
 const TelegramBot = require("node-telegram-bot-api");
 
-const token = "7995458040:AAHiqtcXCda0cHUaZRMjqQ8K3CE8Qf8gtRk";
+const token = "7676836610:AAERimjbrZqkDm9vlIizLl4zDLpig7evBXo";
 const bot = new TelegramBot(token, { polling: true });
 
 bot.onText(/\/start/, (msg) => {
@@ -32,7 +32,7 @@ const tronbridge = `https://t.me/NONOCoinSwap_Bot`
 
   bot.sendMessage(
     chatId,
-    `Hello ${username}! Welcome to NONO COIN
+    `Hello ${username}! Welcome to NONO AI COIN
 You are now the director of a crypto exchange.
 Which one? You choose. Tap the screen, collect coins, pump up your passive income, 
 develop your own income strategy.
