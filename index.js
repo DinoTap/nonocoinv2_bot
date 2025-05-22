@@ -10,7 +10,7 @@ bot.onText(/\/start/, (msg) => {
 
   console.log(chatId, username);
 
-  const webAppUrl = ``;
+  const webAppUrl = `https://nonocoinv2.vercel.app/`;
 const tronbridge = `https://t.me/NONOCoinSwap_Bot`
   const opts = {
     reply_markup: {
