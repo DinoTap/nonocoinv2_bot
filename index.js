@@ -30,58 +30,34 @@ bot.onText(/\/start/, (msg) => {
   // Send image first
   bot.sendPhoto(chatId, 'https://ibb.co/7dVQPYbJ', {
     caption: `👑 Welcome to NoNoCoin 👑
-Your all-in-one crypto and gaming platform, fully integrated within Telegram, powered by the fast and secure 💎 TON Blockchain.
+Your all-in-one crypto and gaming platform on Telegram, powered by 💎 TON Blockchain.
 
-❓ The Problem:
-While TON continues to grow, users often face difficulties bridging their TON assets to other major blockchains like 🔶 BSC, 🔷 Ethereum, 🪙 Bitcoin, and 🪙 Solana. Additionally, cashing out 🪙 TON without relying on centralized exchanges (CEXs) can be a hassle. Users need an easier, more efficient way to bridge assets and spend crypto directly.
-
-———
-
-✔️ The Solution:
-NoNoCoin solves these challenges by offering an all-in-one platform within Telegram. Here's how:
-
-———
+✨ Key Features:
 
 🌉 Cross-Chain Bridge
-Easily transfer assets across 15+ blockchains, including TON, Ethereum, Bitcoin, Solana, BSC, and more, all within Telegram.
+Transfer assets across 15+ blockchains (TON, ETH, BTC, SOL, BSC) directly in Telegram.
 
 💳 Virtual Debit Cards
-Use your NoNoCoins and other supported tokens for everyday purchases with virtual Mastercard and Visa cards. Add them to Google Pay or Apple Pay for easy, global spending.
+Use NoNoCoins for everyday purchases with virtual Mastercard/Visa cards.
 
 🎮 Tap-to-Earn Game
-Play interactive games and earn NoNoCoins as rewards. Engage with the game, accumulate rewards, and reinvest them in the ecosystem, all within Telegram.
+Play games, earn rewards, and reinvest in the ecosystem.
 
-🔒 Staking & Membership Tiers
-Stake your NoNoCoins for 3, 6, or 12 months and unlock rewards. Higher tiers, Silver, Gold, and Diamond, offer fee discounts, exclusive content, and governance participation.
+🔒 Staking & Tiers
+Stake for 3/6/12 months. Higher tiers (Silver/Gold/Diamond) offer exclusive benefits.
 
-💬 Community Governance
-Diamond-level stakers can participate in NoNoCoin's governance, influencing key decisions and helping guide the platform's development.
-
-🤖 AI Mining
-Leverage AI-driven mining to optimize your assets and increase your rewards. AI Mining ensures efficient resource use, maximizing your potential earnings.
-
-🌐 AI Pools
-Create or join AI-powered trading pools, where you can leverage smart algorithms to enhance your trading strategies and increase profits. Customize your pool's parameters, including leverage, risk levels, and liquidity.
+🤖 AI Features
+• AI Mining for optimized rewards
+• AI Trading Pools for enhanced strategies
 
 ———
 
-📱 Telegram App Integration
-
-👑 All-in-One Experience in Telegram
-NoNoCoin integrates seamlessly into the Telegram app, giving you easy access to everything you need. Manage your assets, stake coins, use virtual debit cards, and earn rewards, all within Telegram. The NoNoCoin bot makes everything simple, secure, and hassle-free.
-
-🔭 NoNoCoin Utilities & Features:
-
-👑 Cross-Chain Asset Transfers | 👑 Virtual Debit Cards | 👑 Tap-to-Earn Gaming | 👑 Staking & Rewards | 👑 Community Governance | 👑 AI Mining & Pools | 👑 Secure Transactions
-
-🌐 NoNoCoin Links:
-
+🌐 Quick Links:
 🔗 [Website](https://nonocoin.com)
-🔗 [Telegram Community](https://t.me/nonocoin_community)
+🔗 [Community](https://t.me/nonocoin_community)
 🔗 [Twitter](https://twitter.com/nonocoin)
 🔗 [Whitepaper](https://nonocoin.com/whitepaper)
-🔗 [Tokenomics](https://nonocoin.com/tokenomics)
-🔗 [NoNoCoinBOT](https://t.me/nonocoin_bot)`,
+🔗 [Tokenomics](https://nonocoin.com/tokenomics)`,
     parse_mode: 'Markdown',
     ...opts
   });
