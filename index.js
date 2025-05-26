@@ -53,11 +53,7 @@ Stake for 3/6/12 months. Higher tiers (Silver/Gold/Diamond) offer exclusive bene
 ———
 
 🌐 Quick Links:
-🔗 [Website](https://nonocoin.com)
-🔗 [Community](https://t.me/nonocoin_community)
-🔗 [Twitter](https://twitter.com/nonocoin)
-🔗 [Whitepaper](https://nonocoin.com/whitepaper)
-🔗 [Tokenomics](https://nonocoin.com/tokenomics)`,
+[Website](http://nonocoin.io) | [Community](https://t.me/nonocoin_Community) | [Twitter](https://x.com/no_nocoin) | [Whitepaper](https://nonocoin.com/whitepaper) | [Tokenomics](https://nonocoin.io)`,
     parse_mode: 'Markdown',
     ...opts
   });
