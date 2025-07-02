@@ -15,7 +15,7 @@ bot.onText(/\/start/, (msg) => {
   const opts = {
     reply_markup: {
       inline_keyboard: [
-        [{ text: "Play in 1 click", web_app: { url: webAppUrl } },{ text: "TON Bridge",  url: tronbridge  }],
+        [{ text: "Play in 1 click", web_app: { url: webAppUrl }],
         [
           {
             text: "Subscribe to the channel",
